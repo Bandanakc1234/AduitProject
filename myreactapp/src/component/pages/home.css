@@ -1,0 +1,133 @@
+.image{
+    background-image: url(./../../assets/images/image1.jpg);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+    height: 70vh;
+  }
+  /* @media (max-width: 2560px) {
+    .image {
+      height: 50vh; 
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .image {
+      height: 50vh; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .image {
+      height: 40vh; 
+    }
+  }
+  
+
+@media (max-width: 576px) {
+  .image {
+    height: 30vh;
+  }
+} */
+
+
+  .line-after {
+    @apply inline-block relative text-blue-500 text-lg font-bold;
+  }
+
+  .line-after::after {
+    content: '';
+    @apply absolute top-1/2 bg-blue-800;
+    right: -50px;
+    width: 40px;
+    height: 2px;
+    transform: translateY(-50%);
+    margin-top: 10px;
+  }
+
+  .line-after-career {
+    @apply inline-block relative text-blue-500 text-lg font-bold;
+  }
+
+  .line-after-career::after {
+    content: '';
+    @apply absolute top-1/2 bg-white;
+    right: -3px;
+    width: 40px;
+    height: 2px;
+    transform: translateY(-50%);
+    margin-top: 1px;
+  }
+
+  .title-with-lines {
+      @apply flex items-center justify-center w-full text-center text-gray-700 font-bold text-xl;
+      position: relative;
+  }
+
+  .title-with-lines::before,
+  .title-with-lines::after {
+    content: '';
+      @apply flex h-px w-40 bg-gray-300 mx-4 mt-2;
+  }
+
+  .custom-dots li button:before {
+    color: transparent;
+  }
+  
+  .custom-dots li.slick-active .custom-dot {
+    background: white;
+  }
+
+  .firstflick{
+    background-image: url(./../../assets/images/merge.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 50vw;
+    opacity: 0.8;
+  }
+  .secondflick{
+    background-image: url(./../../assets/images/merger.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 50vw;
+    opacity: 0.8;
+  }
+  .thirdflick{
+    background-image: url(./../../assets/images/Nepal.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 50vw;
+    opacity: 0.8;
+  }
+  .fourthflick{
+    background-image: url(./../../assets/images/team.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 50vw;
+    opacity: 0.8;
+  }
+  .glorious{
+    background-image: url(./../../assets/images/team.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 34vh;
+    opacity: 0.8;
+  }
+  .investment{
+    background-image: url(./../../assets/images/plant.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 34vh;
+    opacity: 0.8;
+  }
+  .extension{
+    background-image: url(./../../assets/images/legal.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 34vh;
+    opacity: 0.8;
+  }
