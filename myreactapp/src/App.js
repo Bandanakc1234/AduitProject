@@ -1,3 +1,4 @@
+import Navbar from "./layout/Navbar";
 import MyRoutes from "./MyRoutes";
 
 function App() {

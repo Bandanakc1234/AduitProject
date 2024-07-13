@@ -21,7 +21,7 @@ const Navbar = () => {
                     <div className='hidden lg:flex'>
                         <ul className='hidden lg:flex'>
                             <Link to={'/'}>
-                                <li className={`ml-10 ${pathname === '/' ? 'text-blue-500' : 'hover:text-blue-500'}`}> <IoIosHome size={2}/> </li>
+                                <li className={`ml-10 ${pathname === '/' ? 'text-blue-500' : 'hover:text-blue-500'}`}> <IoIosHome size={22}/> </li>
                             </Link>
                             <Link to={'/industries'}>
                                 <li className={`ml-10 ${pathname === '/industries' ? 'text-blue-500' : 'hover:text-blue-500'}`}>INDUSTRIES</li>
