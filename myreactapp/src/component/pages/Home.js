@@ -193,19 +193,19 @@ const Home = () => {
             <div className="w-full lg:w-1/2 lg:h-full text-white">
               <Slider {...settings}>
                 <div className="firstflick w-full">
-                  <div className='text-2xl font-semibold g:mt-96 md:mt-72 mt-20 p-5' data-aos="fade-down" data-aos-duration="1000">Taxing Mergers & Acquisitions in Nepal</div>
+                  <div className='text-2xl font-semibold lg:mt-80 md:mt-72 mt-20 p-5' data-aos="fade-down" data-aos-duration="1000">Taxing Mergers & Acquisitions in Nepal</div>
                   <button className="ms-5 p-1 text-lg cursor-pointer text-white bg-purple-500 hover:text-white" data-aos="fade-down" data-aos-duration="1000"><a href="/contact" className="p-2">Blog</a></button>
                 </div>
                 <div className="secondflick w-full">
-                  <div className='text-2xl font-semibold lg:mt-96 md:mt-72 mt-20 p-5' data-aos="fade-down" data-aos-duration="1000">Taxing Telia Sonera & Axiata Deal - Ncell, NBSM's Take</div>
+                  <div className='text-2xl font-semibold lg:mt-80 md:mt-72 mt-20 p-5' data-aos="fade-down" data-aos-duration="1000">Taxing Telia Sonera & Axiata Deal - Ncell, NBSM's Take</div>
                   <button className="ms-5 p-1 text-lg cursor-pointer text-white bg-purple-500 hover:text-white" data-aos="fade-down" data-aos-duration="1000"><a href="/contact" className="p-2">Blog</a></button>
                 </div>
                 <div className="thirdflick w-full">
-                  <div className='text-2xl font-semibold g:mt-96 md:mt-72 mt-20 p-5' data-aos="fade-down" data-aos-duration="1000">Starting a Business in Nepal?</div>
+                  <div className='text-2xl font-semibold lg:mt-80 md:mt-72 mt-20 p-5' data-aos="fade-down" data-aos-duration="1000">Starting a Business in Nepal?</div>
                   <button className="ms-5 p-1 text-lg cursor-pointer text-white bg-purple-500 hover:text-white" data-aos="fade-down" data-aos-duration="1000"><a href="/contact" className="p-2">Blog</a></button>
                 </div>
                 <div className="fourthflick w-full">
-                  <div className='text-2xl font-semibold g:mt-96 md:mt-72 mt-20 p-5' data-aos="fade-down" data-aos-duration="1000">Tax Fact Income From Employment</div>
+                  <div className='text-2xl font-semibold lg:mt-80 md:mt-72 mt-20 p-5' data-aos="fade-down" data-aos-duration="1000">Tax Fact Income From Employment</div>
                   <button className="ms-5 p-1 text-lg cursor-pointer text-white bg-purple-500 hover:text-white" data-aos="fade-down" data-aos-duration="1000"><a href="/contact" className="p-2">Blog</a></button>
                 </div>
               </Slider>
@@ -213,18 +213,18 @@ const Home = () => {
 
             <div className="lg:w-1/2 flex flex-col gap-4 text-white">
               <div className='glorious w-full'>
-                <div className='text-xl font-bold lg:mt-36 md:mt-24 p-3' data-aos="fade-down" data-aos-duration="1000">
+                <div className='text-xl font-bold lg:mt-36 md:mt-24 mt-32 p-3' data-aos="fade-down" data-aos-duration="1000">
                   12 Glorious years of NBSM</div>
                 <button className="ms-5 p-1 text-lg cursor-pointer text-white bg-pink-600 hover:text-white" data-aos="fade-down" data-aos-duration="1000"><a href="/contact" className="p-1">News & Events</a></button>
               </div>
-              <div className='flex gap-4 w-full h-1/2'>
-                <div className='investment w-1/2'>
-                  <div className='text-xl font-bold lg:mt-28 md:mt-16 p-3' data-aos="fade-down" data-aos-duration="1000">
+              <div className='flex md:flex-row flex-col gap-4 w-full h-1/2'>
+                <div className='investment md:w-1/2'>
+                  <div className='text-xl font-bold lg:mt-28 md:mt-16 mt-32 p-3' data-aos="fade-down" data-aos-duration="1000">
                     New By Laws by Central Bank for Foreign Investment in Nepal</div>
                   <button className="ms-5 p-1 text-lg cursor-pointer text-white bg-green-500 hover:text-white" data-aos="fade-down" data-aos-duration="1000"><a href="/contact" className="p-1">News & Events</a></button>
                 </div> 
-                <div className='extension w-1/2'>
-                  <div className='text-xl font-bold lg:mt-28 md:mt-16 p-3' data-aos="fade-down" data-aos-duration="1000">
+                <div className='extension md:w-1/2'>
+                  <div className='text-xl font-bold lg:mt-28 md:mt-16 mt-32 p-3' data-aos="fade-down" data-aos-duration="1000">
                     Extention to file Tax Returns till Poush 25</div>
                   <button className="ms-5 p-1 text-lg cursor-pointer text-white bg-yellow-400 hover:text-white" data-aos="fade-down" data-aos-duration="1000"><a href="/contact" className="p-1">News & Events</a></button>
                 </div>

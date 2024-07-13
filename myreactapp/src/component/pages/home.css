@@ -1,11 +1,12 @@
-.image{
-    background-image: url(./../../assets/images/image1.jpg);
-    background-size: cover;
-    /* background-attachment: fixed; */
-    background-position: center;
-    height: 70vh;
-  }
-  /* @media (max-width: 2560px) {
+.image {
+  background-image: url(./../../assets/images/image1.jpg);
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+  height: 70vh;
+}
+
+/* @media (max-width: 2560px) {
     .image {
       height: 50vh; 
     }
@@ -31,147 +32,190 @@
 } */
 
 
-  .line-after {
-    @apply inline-block relative text-blue-500 text-lg font-bold;
-  }
+.line-after {
+  @apply inline-block relative text-blue-500 text-lg font-bold;
+}
 
-  .line-after::after {
-    content: '';
-    @apply absolute top-1/2 bg-blue-800;
-    right: -50px;
-    width: 40px;
-    height: 2px;
-    transform: translateY(-50%);
-    margin-top: 10px;
-  }
+.line-after::after {
+  content: '';
+  @apply absolute top-1/2 bg-blue-800;
+  right: -50px;
+  width: 40px;
+  height: 2px;
+  transform: translateY(-50%);
+  margin-top: 10px;
+}
 
-  .line-after-career {
-    @apply inline-block relative text-blue-500 text-lg font-bold;
-  }
+.line-after-career {
+  @apply inline-block relative text-blue-500 text-lg font-bold;
+}
 
+.line-after-career::after {
+  content: '';
+  @apply absolute top-1/2 bg-white;
+  right: -1px;
+  width: 40px;
+  height: 2px;
+  transform: translateY(-50%);
+  margin-top: 1px;
+}
+
+@media (min-width: 768px) {
   .line-after-career::after {
     content: '';
     @apply absolute top-1/2 bg-white;
     right: -1px;
-    width: 40px;
-    height: 2px;
-    transform: translateY(-50%);
-    margin-top: 1px;
+    width: 30px;
+    margin-top: 2px;
   }
+}
 
-  @media (min-width: 768px) {
-    .line-after-career::after {
-      content: '';
-      @apply absolute top-1/2 bg-white;
-      right: -1px;
-      width: 30px;
-      margin-top: 2px;
-    }
+@media (min-width: 320px) {
+  .line-after-career::after {
+    content: '';
+    @apply absolute top-1/2 bg-white;
+    right: -22px;
+    width: 30px;
+    margin-top: 3px;
   }
-  @media (min-width: 320px) {
-    .line-after-career::after {
-      content: '';
-      @apply absolute top-1/2 bg-white;
-      right: -22px;
-      width: 30px;
-      margin-top: 3px;
-    }
-  }
+}
 
 
-  .title-with-lines {
-      @apply flex items-center justify-center w-full text-center text-gray-700 font-bold text-xl;
-      position: relative;
-  }
+.title-with-lines {
+  @apply flex items-center justify-center w-full text-center text-gray-700 font-bold text-xl;
+  position: relative;
+}
 
+.title-with-lines::before,
+.title-with-lines::after {
+  content: '';
+  @apply flex h-px w-40 bg-gray-300 mx-4 mt-2;
+}
+
+@media (max-width: 635px) and (min-width: 425px) {
   .title-with-lines::before,
   .title-with-lines::after {
     content: '';
-      @apply flex h-px w-40 bg-gray-300 mx-4 mt-2;
+    @apply flex h-px w-20 bg-gray-300 mt-2;
   }
+}
 
-  .custom-dots li button:before {
-    color: transparent;
+@media (max-width: 425px) {
+  .title-with-lines::before,
+  .title-with-lines::after {
+    content: none;
   }
-  
-  .custom-dots li.slick-active .custom-dot {
-    background: white;
-  }
+}
+.custom-dots li button:before {
+  color: transparent;
+}
 
-  .firstflick{
-    background-image: url(./../../assets/images/merge.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 70vh;
-    width: 50vw;
-    opacity: 0.8;
+.custom-dots li.slick-active .custom-dot {
+  background: white;
+}
+
+.firstflick {
+  background-image: url(./../../assets/images/merge.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  width: 50vw;
+  opacity: 0.8;
+}
+
+@media (max-width: 635px) and (min-width: 320px) {
+  .firstflick {
+    height: 45vh;
+    width: 45vw;
   }
-  @media (max-width: 635px) and (min-width: 320px) {
-    .firstflick{
-      height: 45vh;
-      width: 45vw;
-    }
-  } 
-  .secondflick{
-    background-image: url(./../../assets/images/merger.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 70vh;
-    width: 50vw;
-    opacity: 0.8;
+}
+
+.secondflick {
+  background-image: url(./../../assets/images/merger.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  width: 50vw;
+  opacity: 0.8;
+}
+
+@media (max-width: 635px) and (min-width: 320px) {
+  .secondflick {
+    height: 45vh;
+    width: 45vw;
   }
-  @media (max-width: 635px) and (min-width: 320px) {
-    .secondflick{
-      height: 45vh;
-      width: 45vw;
-    }
+}
+
+.thirdflick {
+  background-image: url(./../../assets/images/Nepal.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  width: 50vw;
+  opacity: 0.8;
+}
+
+@media (max-width: 635px) and (min-width: 320px) {
+  .thirdflick {
+    height: 45vh;
+    width: 45vw;
   }
-  .thirdflick{
-    background-image: url(./../../assets/images/Nepal.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 70vh;
-    width: 50vw;
-    opacity: 0.8;
+}
+
+.fourthflick {
+  background-image: url(./../../assets/images/team.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  width: 50vw;
+  opacity: 0.8;
+}
+
+@media (max-width: 635px) and (min-width: 320px) {
+  .fourthflick {
+    height: 45vh;
+    width: 45vw;
   }
-  @media (max-width: 635px) and (min-width: 320px) {
-    .thirdflick{
-      height: 45vh;
-      width: 45vw;
-    }
+}
+
+.glorious {
+  background-image: url(./../../assets/images/team.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 34vh;
+  opacity: 0.8;
+}
+
+@media (max-width: 635px) and (min-width: 320px) {
+  .glorious {
+    height: 45vh;
   }
-  .fourthflick{
-    background-image: url(./../../assets/images/team.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 70vh;
-    width: 50vw;
-    opacity: 0.8;
+}
+
+.investment {
+  background-image: url(./../../assets/images/plant.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 34vh;
+  opacity: 0.8;
+}
+
+@media (max-width: 635px) and (min-width: 320px) {
+  .investment {
+    height: 45vh;
   }
-  @media (max-width: 635px) and (min-width: 320px) {
-    .fourthflick{
-      height: 45vh;
-      width: 45vw;
-    }
+}
+
+.extension {
+  background-image: url(./../../assets/images/legal.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 34vh;
+  opacity: 0.8;
+}
+
+@media (max-width: 635px) and (min-width: 320px) {
+  .extension {
+    height: 45vh;
   }
-  .glorious{
-    background-image: url(./../../assets/images/team.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 34vh;
-    opacity: 0.8;
-  }
-  .investment{
-    background-image: url(./../../assets/images/plant.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 34vh;
-    opacity: 0.8;
-  }
-  .extension{
-    background-image: url(./../../assets/images/legal.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 34vh;
-    opacity: 0.8;
-  }
+}

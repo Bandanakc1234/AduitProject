@@ -7,24 +7,24 @@ const Footer = () => {
         <>
             <footer>
                 <div className="border border-t-4">
-                    <h1 className="title-with-lines md:text-4xl text-3xl text-center font-bold p-10" data-aos="fade-up" data-aos-duration="2000">How can we help you?</h1>
-                    <div className='flex justify-center pb-16'>
+                    <h1 className="title-with-lines md:text-4xl text-3xl text-center font-bold md:p-10 py-10 p-1">How can we help you?</h1>
+                    <div className='flex md:flex-row md:gap-0 flex-col gap-6 justify-center items-center pb-16 '>
                         <div>
-                            <button className="w-96 p-2 text-lg bg-blue-900 cursor-pointer mx-8 text-white hover:bg-blue-700 "><a href="/about" className="uppercase">Contact us</a></button>
+                            <button className="lg:w-96  w-72 p-2 text-lg bg-blue-900 cursor-pointer mx-8 text-white hover:bg-blue-700 "><a href="/about" className="uppercase">Contact us</a></button>
                         </div>
                         <div>
-                            <button className="w-96 p-2 text-lg bg-blue-950 cursor-pointer text-white hover:bg-blue-700 "><a href="/about" className="uppercase">Request for proposal</a></button>
+                            <button className="lg:w-96 w-72 p-2 text-lg bg-blue-950 cursor-pointer text-white hover:bg-blue-700 "><a href="/about" className="uppercase">Request for proposal</a></button>
                         </div>
                     </div>
                 </div>
-                
-                <div className='border border-t-4 border-t-blue-800 text-blue-900 flex justify-between p-8'>
+
+                <div className='border border-t-4 border-t-blue-800 text-blue-900 flex lg:flex-row lg:gap-0 flex-col gap-5 justify-between p-8'>
                     <div>Logo</div>
                     <div className='flex justify-evenly gap-5'>
-                    <a href="/about" className='ml-1 underline'>Tax Advisory</a>
-                    <a href="/about" className='ml-1 underline'>Merger & Acquisitions</a>
-                    <a href="/about" className='ml-1 underline'>Audit & Assurance</a>
-                    <a href="/about" className='ml-1 underline'>Risk Advisory & Consulting</a>
+                        <a href="/about" className='ml-1 underline'>Tax Advisory</a>
+                        <a href="/about" className='ml-1 underline'>Merger & Acquisitions</a>
+                        <a href="/about" className='ml-1 underline'>Audit & Assurance</a>
+                        <a href="/about" className='ml-1 underline'>Risk Advisory & Consulting</a>
                     </div>
                     <div>In Associated with</div>
                 </div>
