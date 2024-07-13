@@ -55,22 +55,17 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div>
-        <div className="image text-white lg:p-10 h-[70vh] sm:h-[30vh] md:h-[40vh] lg:h-40vh xl:h-50vh 2xl:h-50vh">
-          {/* <div className="home lg:p-20 lg:text-xl lg:w-3/5  md:p-10 md:text-base md:w-5/6 p-3 text-sm text-white"> */}
-          {/* <img src={image1} alt="Description of image" className="your-image-class" /> */}
-          <h1 className='uppercase pt-16 xl:text-6xl lg:text-3xl w-1/3 font-semibold'>Nepal Budget 2081/82 | Highlights from Tax Perspective</h1>
-          <p className='pt-10 w-1/2'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, voluptatem provident. Corporis
-            dolores nisi cupiditate sunt minus voluptas molestiae necessitatibus voluptates, consequuntur,
-            non rem optio nemo quam sit quis accusantium quas omnis. Molestiae voluptatem officia nesciunt,
-            blanditiis aperiam eligendi adipisci.</p>
-          <div className="pt-6">
-            <button className="bg-white h-9 text-lg rounded-md cursor-pointer text-black hover:bg-blue-900 hover:text-white" data-aos="zoom-in" data-aos-duration="1000"><a href="/contact" className="p-3">Contact Us</a></button>
+      <div className=''>
+        <div className="image text-white lg:p-10 p-6 md:h-[70vh]">
+          <h1 className='lg:pt-16 pt-5 text-4xl lg:w-3/5 font-semibold'>Nepal Budget 2081/82 | Highlights from Tax Perspective</h1>
+          <p className='lg:pt-16 pt-6 lg:w-1/2 text-xl'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, voluptatem provident. Corporis dolores nisi cupiditate sunt minus voluptas molestiae</p>
+          <div className="pt-8">
+            <button className="bg-white p-2 text-xl cursor-pointer text-black hover:bg-blue-900 hover:text-white" data-aos="zoom-in" data-aos-duration="1000"><a href="/contact" className="p-4">Learn More</a></button>
           </div>
         </div>
 
         {/* start */}
-        <div className="body_mid h-auto bg-blue text-black w-full md:p-9  lg:flex lg:justify-between ">
+        <div className="body_mid h-auto bg-blue text-black w-full md:p-9 lg:flex lg:justify-between ">
           <div className="left lg:w-1/2 md:w-full sm:w-full" data-aos="fade-up" data-aos-duration="2000">
             <h1 className="line-after uppercase text-blue-800 lg:text-xl font-semibold text-xl md:pt-5 pt-3">Publication</h1>
             <p className="lg:pt-16 lg:text-3xl font-semibold lg:w-full md:text-base md:w-5/6 md:pt-10 pt-3 text-sm w-full">

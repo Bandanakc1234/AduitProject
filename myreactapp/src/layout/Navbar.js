@@ -17,46 +17,42 @@ const Navbar = () => {
                 <div className='flex justify-between items-center h-full w-full px-4 2xl:px:16'>
                     <div className=''>
                         <h1 className='text-3xl font-bold'>AduitForm</h1>
-                        {/* <Link>
-                    <Image src={Logo} alt='Logo' width={205} height={75} className='cursor-pointer' priority/>
-                    <a href="#!">Index It Hub</a>
-                    </Link> */}
                     </div>
-                    <div className='hidden md:flex '>
-                        <ul className='hidden md:flex'>
+                    <div className='hidden lg:flex'>
+                        <ul className='hidden lg:flex'>
                             <Link to={'/'}>
-                                <li className={`ml-10 text-xl ${pathname === '/' ? 'text-blue-500' : 'hover:text-blue-500'}`}> <IoIosHome size={25}/> </li>
+                                <li className={`ml-10 ${pathname === '/' ? 'text-blue-500' : 'hover:text-blue-500'}`}> <IoIosHome size={2}/> </li>
                             </Link>
                             <Link to={'/industries'}>
-                                <li className={`ml-10  text-xl ${pathname === '/industries' ? 'text-blue-500' : 'hover:text-blue-500'}`}>INDUSTRIES</li>
+                                <li className={`ml-10 ${pathname === '/industries' ? 'text-blue-500' : 'hover:text-blue-500'}`}>INDUSTRIES</li>
                             </Link>
                             <Link to={'/services'}>
-                                <li className={`ml-10  text-xl ${pathname === '/services' ? 'text-blue-500' : 'hover:text-blue-500'}`}>SERVICES</li>
+                                <li className={`ml-10 ${pathname === '/services' ? 'text-blue-500' : 'hover:text-blue-500'}`}>SERVICES</li>
                             </Link>
                             <Link to={'/about'}>
-                                <li className={`ml-10 text-xl ${pathname === '/about' ? 'text-blue-500' : 'hover:text-blue-500'}`}>ABOUT</li>
+                                <li className={`ml-10 ${pathname === '/about' ? 'text-blue-500' : 'hover:text-blue-500'}`}>ABOUT</li>
                             </Link>
                             <Link to={'/international'}>
-                                <li className={`ml-10 text-xl ${pathname === '/international' ? 'text-blue-500' : 'hover:text-blue-500'}`}>INTERNATIONAL</li>
+                                <li className={`ml-10 ${pathname === '/international' ? 'text-blue-500' : 'hover:text-blue-500'}`}>INTERNATIONAL</li>
                             </Link>
                             <Link to={'/resources'}>
-                                <li className={`ml-10 text-xl ${pathname === '/resources' ? 'text-blue-500' : 'hover:text-blue-500'}`}>RESOURCES</li>
+                                <li className={`ml-10 ${pathname === '/resources' ? 'text-blue-500' : 'hover:text-blue-500'}`}>RESOURCES</li>
                             </Link>
                             <Link to={'/contact'}>
-                                <li className={`ml-10 text-xl ${pathname === '/contact' ? 'text-blue-500' : 'hover:text-blue-500'}`}>CONTACT US</li>
+                                <li className={`ml-10 ${pathname === '/contact' ? 'text-blue-500' : 'hover:text-blue-500'}`}>CONTACT US</li>
                             </Link>
                         </ul>
                     </div>
-                    <div onClick={handleNav} className='sm:hidden cursor-pointer'>
+                    <div onClick={handleNav} className='lg:hidden cursor-pointer'>
                         <AiOutlineMenu size={25} />
                     </div>
                 </div>
                 <div className={
-                    menuOpen ? "fixed right-0 top-0 w-[65%] sm:hidden h-screen bg-black text-white p-10 ease-in duration-100"
+                    menuOpen ? "fixed right-0 top-0 w-[65%] md:hidden h-screen bg-black text-white p-10 ease-in duration-100"
                         : "fixed left-[-100%] top-0 p-10 ease-in duration-100"
                 }>
                     <div className='flex w-full items-center justify-end'>
-                        <div onClick={handleNav} className='sm:hidden cursor-pointer'>
+                        <div onClick={handleNav} className='md:hidden cursor-pointer'>
                             <AiOutlineClose size={25} />
                         </div>
                     </div>
